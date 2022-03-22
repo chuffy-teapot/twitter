@@ -50,6 +50,7 @@
 .content__list{
   margin: 0px;
   list-style-type:none;
+  user-select: none;
 }
 
 .content__item{
@@ -80,6 +81,11 @@
   margin-right: 10px;
   font-weight: 600;
   font-size: 17px;
+  cursor: pointer;
+}
+
+.content__username:hover{
+  text-decoration: underline;
 }
 
 .content__username{
@@ -94,15 +100,26 @@
 }
 
 .content__dots{
-  width: 25px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
   margin-left: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   cursor: pointer;
 }
 
+.content__dots:hover{
+  background-color: #a5eaffb9;
+}
+
+.content__dots:hover .content__dot{
+  background-color: #43d3ffaf;
+}
+
 .content__dot{
+  margin: 2px;
   width: 5px;
   height: 5px;
   border-radius: 50px;
@@ -110,9 +127,11 @@
 }
 
 .content__text{
+  width: 93%;
   margin: 10px 0;
   font-size: 18px;
   line-height: 22px;
+  user-select: text;
 }
 
 .content__subtext{
@@ -131,4 +150,35 @@
 
 .content__spidey{
   border-radius: 15px;
+  user-select: none;
+}
+
+.content__sublink{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  transition: .5s ease;
+}
+
+.content__sublink-comment:hover{
+  background-color: #43d3ffaf;
+}
+
+.content__sublink-retweet:hover{
+  background-color: #a3ffa8d5;
+}
+
+.content__sublink-like:hover{
+  background-color: #ffa3a3d5;
+}
+
+.content__sublink-share:hover{
+  background-color: #43d3ffaf;
+}
+
+.content__sublink-stats:hover{
+  background-color: #e3ff438e;
 }
