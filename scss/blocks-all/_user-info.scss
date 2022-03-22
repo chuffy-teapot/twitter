@@ -1,0 +1,94 @@
+.user-info {
+  width: 100%;
+  padding: 12px 16px;
+  position: relative;
+}
+
+.info__img {
+  border: 4px solid white;
+  border-radius: 50%;
+  margin-top: -15%;
+  user-select: none;
+}
+
+.info__link {
+  width: fit-content;
+  padding: 7px 15px;
+  border: 1px solid gray;
+  border-radius: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  float: right;
+  user-select: none;
+  transition: .3s;
+}
+
+.info__link:hover{
+  background-color: #d8d8d881;
+}
+
+.info__user {
+  margin: 15px 0;
+}
+
+.info__name {
+  font-size: 20px;
+  letter-spacing: .4px;
+  font-weight: 700;
+}
+
+.info__username {
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  color: gray;
+}
+
+.info__username:hover {
+  color: black;
+}
+
+.info__date {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #5a5959;
+}
+
+.info__calendar {
+  margin-right: 10px;
+}
+
+.info__follow {
+  display: flex;
+  align-items: center;
+}
+
+.info__following {
+  margin-right: 15px;
+}
+
+.info__following,
+.info__followers {
+  padding-bottom: 3px;
+  font-size: 15px;
+  color: #5a5959;
+  cursor: pointer;
+}
+
+.info__following:hover {
+  box-shadow: inset 0px -1px 1px #5a5959;
+}
+
+.info__followers:hover {
+  box-shadow: inset 0px -1px 1px #5a5959;
+}
+
+.info__follow-number {
+  color: black;
+  font-weight: 600;
+  margin-right: 4px;
+}
