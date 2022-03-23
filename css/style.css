@@ -1187,6 +1187,7 @@ main {
     z-index: 5;
     bottom: 0;
     left: 0;
+    border-top: 1px solid #E5E5E5;
   }
   .menu__item {
     position: relative;
