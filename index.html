@@ -71,13 +71,15 @@
           </li>
           <li class="nav__item-btn">
             <button class="nav__btn">Tweet</button>
+            <p class="nav__item-resp">+</p>
           </li>
         </ul>
         <!----------------------  nav__list  ------------------------->
 
         <div class="nav__profile">
-          <img class="profile__img" src="./img/user-img.jpg" width="50" height="50" alt="user's photo">
-
+          <a href="./img/user-img.jpg">
+            <img class="profile__img" src="./img/user-img.jpg" width="50" height="50" alt="user's photo">
+          </a>
           <div class="profile__user">
             <p class="profile__name">chuffy</p>
             <a href="https://twitter.com/chuffy_teapot" class="profile__username">@chuffy_teapot</a>
@@ -113,7 +115,9 @@
 
       <section id="user-info__section">
         <div class="user-info">
-          <img class="info__img" src="./img/user-img.jpg" width="134" height="134" alt="user's photo">
+          <a class="info__img-link" href="./img/user-img.jpg">
+            <img class="info__img" src="./img/user-img.jpg" width="134" height="134" alt="user's photo">
+          </a>
           <a class="info__link" href="#">Edit profile</a>
 
           <div class="info__user">
@@ -163,7 +167,9 @@
         <div class="content">
           <ul class="content__list">
             <li class="content__item">
-              <img class="content__img" src="./img/user-img.jpg" width="60" height="60" alt="user-img">
+              <a class="content__img-link" href="./img/user-img.jpg">
+                <img class="content__img" src="./img/user-img.jpg" width="60" height="60" alt="user-img">
+              </a>
 
               <div class="content__user">
                 <div class="content__user-info">
@@ -216,7 +222,9 @@
             </li>
 
             <li class="content__item">
-              <img class="content__img" src="./img/user-img.jpg" width="60" height="60" alt="user-img">
+              <a class="content__img-link" href="./img/user-img.jpg">
+                <img class="content__img" src="./img/user-img.jpg" width="60" height="60" alt="user-img">
+              </a>
 
               <div class="content__user">
                 <div class="content__user-info">
@@ -273,7 +281,9 @@
             </li>
 
             <li class="content__item">
-              <img class="content__img" src="./img/user-img.jpg" width="60" height="60" alt="user-img">
+              <a class="content__img-link" href="./img/user-img.jpg">
+                <img class="content__img" src="./img/user-img.jpg" width="60" height="60" alt="user-img">
+              </a>
 
               <div class="content__user">
                 <div class="content__user-info">
@@ -330,9 +340,194 @@
       </section>
       <!---------------------- content ----------------------->
 
-
-      
     </main>
+
+    <section id="search__section">
+      <div class="search">
+        <form class="search__form">
+          <input class="search__input" type="text" placeholder="Search Twitter">
+          <img class="search__img" src="./img/search.svg" width="24" height="24" alt="search icon">
+        </form>
+
+        <div class="search__img-box">
+          <ul class="search__list">
+            <li class="search__item">
+              <a class="search__link" href="./img/twitter-1.jpg">
+                <img src="./img/twitter-1.jpg" width="100%" height="70" alt="user's photos" class="search__list-img">
+              </a>
+            </li>
+            <li class="search__item">
+              <a class="search__link" href="./img/twitter-2.jpg">
+                <img src="./img/twitter-2.jpg" width="100%" height="70" alt="user's photos" class="search__list-img">
+              </a>
+            </li>
+            <li class="search__item">
+              <a class="search__link" href="./img/twitter-3.jpg">
+                <img src="./img/twitter-3.jpg" width="100%" height="70" alt="user's photos" class="search__list-img">
+              </a>
+            </li>
+            <li class="search__item">
+              <a class="search__link" href="./img/twitter-4.png">
+                <img src="./img/twitter-4.png" width="100%" height="70" alt="user's photos" class="search__list-img">
+              </a>
+            </li>
+            <li class="search__item">
+              <a class="search__link" href="./img/twitter-5.jpg">
+                <img src="./img/twitter-5.jpg" width="100%" height="70" alt="user's photos" class="search__list-img">
+              </a>
+            </li>
+            <li class="search__item">
+              <a class="search__link" href="./img/twitter-6.jpg">
+                <img src="./img/twitter-6.jpg" width="100%" height="70" alt="user's photos" class="search__list-img">
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <!----- search__img-box ------>
+      </div>
+
+      <div class="search__recommendations recommendations">
+        <ul class="rec__list">
+          <li class="rec__item-title">
+            <p class="rec__title">You might like</p>
+          </li>
+
+          <li class="rec__item">
+            <a class="rec__img-link" href="./img/xbox.jpg">
+              <img class="rec__img" src="./img/xbox.jpg" width="48" height="48" alt="xbox">
+            </a>
+            <div class="rec__box">
+              <p class="rec__name">Xbox</p>
+              <img class="xbox-verified" src="./img/Twitter_Verified.png" width="17" height="17" alt="verified">
+              <a class="rec__user-name" href="https://twitter.com/Xbox">@Xbox</a>
+            </div>
+            <a class="rec__link" href="https://twitter.com/Xbox">follow</a>
+          </li>
+          <li class="rec__item">
+            <a class="rec__img-link" href="./img/cyberpunk.png">
+              <img class="rec__img" src="./img/cyberpunk.png" width="48" height="48" alt="xbox">
+            </a>
+            <div class="rec__box">
+              <span class="rec__name">Cyberpunk 2077</span>
+              <img class="cyberpunk-verified" src="./img/Twitter_Verified.png" width="17" height="17" alt="verified">
+              <a class="rec__user-name" href="https://twitter.com/CyberpunkGame">@CyberpunkGame</a>
+            </div>
+            <a class="rec__link" href="https://twitter.com/CyberpunkGame">follow</a>
+          </li>
+          <li class="rec__item">
+            <a class="rec__img-link" href="./img/rozetked.jpg">
+              <img class="rec__img" src="./img/rozetked.jpg" width="48" height="48" alt="xbox">
+            </a>
+            <div class="rec__box">
+              <span class="rec__name">Макс Хорошев</span>
+              <a class="rec__user-name" href="https://twitter.com/khoroshev">@khoroshev</a>
+            </div>
+            <a class="rec__link" href="https://twitter.com/khoroshev">follow</a>
+          </li>
+
+          <li class="rec__item-more">
+            <a class="rec__link-more" href="#">Show more</a>
+          </li>
+        </ul>
+        <!------ rec__list ------>
+      </div>
+      <!--------------------------------------------------  recommendations  --------------------------------------------------->
+
+      <div class="rec__trends trends">
+        <ul class="rec__list">
+          <li class="rec__item-title">
+            <p class="rec__title">Trends for you</p>
+          </li>
+
+          <li class="rec__item">
+            <div class="rec__box">
+              <p class="rec__box-place">Trending in Germany</p>
+              <p class="rec__box-tag">#Drachenlord</p>
+              <p class="rec__box-tweets">3,484 Tweets</p>
+            </div>
+
+            <div class="rec__dots">
+              <div class="rec__dot"></div>
+              <div class="rec__dot"></div>
+              <div class="rec__dot"></div>
+            </div>
+          </li>
+          <li class="rec__item">
+            <div class="rec__box">
+              <p class="rec__box-place">Trending in Germany</p>
+              <p class="rec__box-tag">Haider</p>
+              <p class="rec__box-tweets">5,920 Tweets</p>
+            </div>
+
+            <div class="rec__dots">
+              <div class="rec__dot"></div>
+              <div class="rec__dot"></div>
+              <div class="rec__dot"></div>
+            </div>
+          </li>
+          <li class="rec__item">
+            <div class="rec__box">
+              <p class="rec__box-place"></p>
+              <p class="rec__box-tag">#Bundeswehr</p>
+              <p class="rec__box-tweets">2,638 Tweets</p>
+            </div>
+
+            <div class="rec__dots">
+              <div class="rec__dot"></div>
+              <div class="rec__dot"></div>
+              <div class="rec__dot"></div>
+            </div>
+          </li>
+          <li class="rec__item">
+            <div class="rec__box">
+              <p class="rec__box-place">Trending in Germany</p>
+              <p class="rec__box-tag">Rubel</p>
+              <p class="rec__box-tweets">2,795 Tweets</p>
+            </div>
+
+            <div class="rec__dots">
+              <div class="rec__dot"></div>
+              <div class="rec__dot"></div>
+              <div class="rec__dot"></div>
+            </div>
+          </li>
+
+          <li class="rec__item-more">
+            <a class="rec__link-more" href="#">Show more</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="#" class="menu__link">
+            <img src="./img/home.svg" width="23" height="21" alt="home icon" class="menu__img">
+            <img src="./img/home-fill.svg" width="23" height="21" alt="home icon filled" class="menu__img-fill">
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">
+            <img src="./img/search.svg" width="21" height="21" alt="search icon" class="menu__img">
+            <img src="./img/search-menu.svg" width="21" height="21" alt="search icon filled" class="menu__img-fill">
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">
+            <img src="./img/notification.svg" width="21" height="21" alt="notification icon" class="menu__img">
+            <img src="./img/notification-fill.svg" width="21" height="21" alt="notification icon filled" class="menu__img-fill">
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link">
+            <img src="./img/messages.svg" width="21" height="19" alt="messages icon" class="menu__img">
+            <img src="./img/messages-fill.svg" width="21" height="19" alt="messages icon filled" class="menu__img-fill">
+          </a>
+        </li>
+      </ul>
+    </section>
   </div><!-- container -->
 </body>
 

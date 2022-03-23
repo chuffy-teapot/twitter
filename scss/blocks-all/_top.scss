@@ -9,14 +9,14 @@
 }
 
 .top{
-  width: 600px;
-  padding: 7px 0;
+  width: 100%;
+  padding: 6px 0;
   display: flex;
   align-items: center;
   background-color: #ffffffe5;
   user-select: none;
   position: fixed;
-  z-index: 6;
+  z-index: 4;
   top: 0;
 }
 
@@ -54,4 +54,25 @@
   font-size: 14px;
   color: gray;
   font-weight: 500;
+}
+
+@media (max-width:900px){
+  #top__section{
+    height: 230px;
+    background-image: url("../../img/user-bg.jpg");
+    background-position: top 55px left 40%;
+  }
+}
+
+@media (max-width:550px) {
+  .top{
+    width: 112%;
+  }
+
+  #top__section{
+    width: 112%;
+    height: 200px;
+    background-position: top 55px left 40%;
+    background-size: contain;
+  }
 }

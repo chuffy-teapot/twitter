@@ -1,0 +1,137 @@
+.rec__list{
+  margin: 0px;
+  margin-top: 15px;
+  padding: 15px 0;
+  padding-bottom: 0;
+  list-style-type:none;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+}
+
+.rec__title{
+  padding: 0 15px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.rec__item{
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.rec__item:hover{
+  background-color: #bbbbbb;
+}
+
+.rec__img-link{
+  display: inline-block;
+  text-decoration: none;
+  user-select: none;
+}
+
+.rec__img{
+  border-radius: 50px;
+  display: block;
+}
+
+.rec__box{
+  margin-right: auto;
+  margin-left: 5px;
+  position: relative;
+}
+
+.xbox-verified{
+  position: absolute;
+  top: 2px;
+  left: 47px;
+  user-select: none;
+}
+
+.cyberpunk-verified{
+  user-select: none;
+}
+
+.rec__name{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.rec__user-name{
+  text-decoration: none;
+  color: gray;
+}
+
+.rec__user-name:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.rec__link{
+  font-size: 12px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #1D9BF0;
+  border-radius: 50px;
+  user-select: none;
+}
+
+.rec__item-more{
+  padding: 15px 20px;
+  cursor: pointer;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.rec__item-more:hover{
+  background-color: #bbbbbb;
+}
+
+.rec__link-more{
+  text-decoration: none;
+  color: #1D9BF0;
+}
+
+
+// ----------------  recommendations  ----------------------------- 
+
+
+.rec__dots{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  user-select: none;
+}
+
+.rec__dot{
+  width: 5px;
+  height: 5px;
+  margin: 2px;
+  border-radius: 50px;
+  background-color: #b1b1b1;
+}
+
+.rec__dots:hover{
+  background-color: #e0e0e0;
+}
+
+.rec__box-place{
+  font-size: 14px;
+  color: gray;
+}
+
+.rec__box-tag{
+  font-weight: 600;
+}
+
+.rec__box-tweets{
+  font-size: 14px;
+  color: gray;
+}

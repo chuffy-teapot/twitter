@@ -12,6 +12,7 @@ body{
 
 .container{
   display: flex;
+  justify-content: space-between;
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px;
@@ -27,4 +28,50 @@ main{
   width: 50%;
   border: 1px solid #E5E5E5;
   border-bottom: none;
+}
+
+@media (max-width:1240px) {
+  .container{
+    width: 100%;
+  }
+
+  header{
+    width: 20%;
+  }
+
+  main{
+    width: 78%;
+  }
+}
+
+@media (max-width:900px){
+  .container{
+    justify-content: center;
+  }
+
+  header{
+    width: 55px;
+  }
+
+  main{
+    max-width: 89%;
+  }
+}
+
+@media (max-width:550px){
+  .container{
+    width: 100%;
+    padding: 0;
+    display: block;
+  }
+
+  header{
+    width: 0%;
+    display: none;
+  }
+
+  main{
+    width: 550px;
+    border: none;
+  }
 }
