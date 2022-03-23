@@ -1,5 +1,5 @@
 .nav__bar{
-  width: 22%;
+  width: fit-content;
   height: 100vh;
   display: inline-block;
   display: flex;
@@ -171,6 +171,7 @@
 }
 
 .info__dots{
+  margin-left: 15px;
   width: 5px;
   height: 5px;
   border-radius: 50%;
