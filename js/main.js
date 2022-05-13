@@ -46,14 +46,16 @@ function foo() {
 
   INP.value = "";
 
-  del.addEventListener("click", () =>{
+  del.addEventListener("click", () => {
     li.remove()
   })
 
   edit.addEventListener("click", () => {
     let newList = prompt("введите значение")
 
-  span.textContent = newList;
+    if (newList !== "" && newList !== null) {
+      span.textContent = newList;
+    }
   })
 
   check.addEventListener("click", () => {
